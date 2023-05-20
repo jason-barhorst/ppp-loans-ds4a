@@ -1,9 +1,14 @@
 import requests
 import os
+from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
+
+# Create a directory to store the data if needed
+data_path = Path("./data/NAICS")
+data_path.mkdir(parents=True, exist_ok=True)
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
@@ -16,10 +21,12 @@ driver.find_element(By.ID, "naics-downloadables-toggle-btn").click()
 sleep(1.5)
 
 # Find download links:
-elements = driver.find_elements(By.XPATH, "//a[contains(@href, '2022') or contains(@href, '2017')][contains(@href, '.xlsx') or contains(@href, '.pdf')]")
+xpath = "//a[contains(@href, '2022') or contains(@href, '2017')][contains(@href, '.xlsx') or contains(@href, '.pdf')]"  # noqa: E501
+elements = driver.find_elements(By.XPATH, xpath)
 for element in elements:
     url = element.get_attribute("href")
-    filename = f'./data/NAICS/{url.split("/")[-1]}'.replace("%20", "_")
+    data_filename = url.split("/")[-1].replace("%20", "_")
+    filename = data_path / data_filename
     if os.path.exists(filename):
         continue
     else:
@@ -27,6 +34,6 @@ for element in elements:
         if response.status_code == 200:
             with open(filename, "wb") as f:
                 f.write(response.content)
-                print(f'{url.split("/")[-1]} File downloaded successfully')
+                print(f'{data_filename} File downloaded successfully')
         else:
             print("File download failed")
