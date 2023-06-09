@@ -10,10 +10,11 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
+
 date_format = "%Y-%m-%dT%H:%M:%S%z"
 
 # Create a directory to store the data if needed
-data_path = Path("./data/ppp_foia")
+data_path = Path("./data/PPP-FOIA")
 data_path.mkdir(parents=True, exist_ok=True)
 data_date_file = data_path / 'DATA_DATE.txt'
 
@@ -37,7 +38,7 @@ data_datetime = span_tag["data-datetime"]
 current_dd = datetime.strptime(data_datetime, date_format)
 print("current data date:", current_dd)
 
-new_data_available = stored_dd is None or current_dd > stored_dd
+new_data_available = stored_dd is None or current_dd > stored_dd 
 if new_data_available:
     print("Newer data available, downloading...")
 else:
