@@ -1,0 +1,32 @@
+{
+  "failed_bank_list": [
+    {
+      "BANK_NAME": "Almena State Bank",
+      "CERT": "15426",
+      "ACQUIRING_INSTITUTION": "Equity Bank",
+      "CLOSING_DATE": "10/23/20",
+      "FUND": "10538.00"
+    },
+    {
+      "BANK_NAME": "First City Bank of Florida",
+      "CERT": "16748",
+      "ACQUIRING_INSTITUTION": "United Fidelity Bank, fsb",
+      "CLOSING_DATE": "10/16/20",
+      "FUND": "10537.00"
+    },
+    {
+      "BANK_NAME": "The First State Bank",
+      "CERT": "14361",
+      "ACQUIRING_INSTITUTION": "MVB Bank, Inc.",
+      "CLOSING_DATE": "04/03/20",
+      "FUND": "10536.00"
+    },
+    {
+      "BANK_NAME": "Ericson State Bank",
+      "CERT": "18265",
+      "ACQUIRING_INSTITUTION": "Farmers and Merchants Bank",
+      "CLOSING_DATE": "02/14/20",
+      "FUND": "10535.00"
+    }
+  ]
+}
