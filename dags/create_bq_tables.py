@@ -44,7 +44,7 @@ with models.DAG(
             {"name": "state", "type": "STRING", "mode": "REQUIRED"},
             {"name": "city", "type": "STRING", "mode": "REQUIRED"},
             {"name": "rssid", "type": "STRING", "mode": "NULLABLE"},
-            {"name": "dateupdt", "type": "DATE", "mode": "REQUIRED"},
+            {"name": "date_updt", "type": "DATE", "mode": "REQUIRED"},
             {"name": "inactive", "type": "BOOL", "mode": "REQUIRED"},
             {"name": "insfdic", "type": "BOOL", "mode": "REQUIRED"},
             {"name": "offices", "type": "STRING", "mode": "REQUIRED"},
