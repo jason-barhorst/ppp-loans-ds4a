@@ -33,7 +33,8 @@ response = requests.get(site)
 soup = BeautifulSoup(response.content, "html.parser")
 
 span_tag = soup.find("span", {"class": "automatic-local-datetime"})
-data_datetime = span_tag["data-datetime"]
+if span_tag is not None:
+    data_datetime = span_tag["data-datetime"]
 
 current_dd = datetime.strptime(data_datetime, date_format)
 print("current data date:", current_dd)

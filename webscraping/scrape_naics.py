@@ -25,15 +25,16 @@ xpath = "//a[contains(@href, '2022') or contains(@href, '2017')][contains(@href,
 elements = driver.find_elements(By.XPATH, xpath)
 for element in elements:
     url = element.get_attribute("href")
-    data_filename = url.split("/")[-1].replace("%20", "_")
-    filename = data_path / data_filename
-    if os.path.exists(filename):
-        continue
-    else:
-        response = requests.get(url)
-        if response.status_code == 200:
-            with open(filename, "wb") as f:
-                f.write(response.content)
-                print(f'{data_filename} File downloaded successfully')
+    if url is not None:
+        data_filename = url.split("/")[-1].replace("%20", "_")
+        filename = data_path / data_filename
+        if os.path.exists(filename):
+            continue
         else:
-            print("File download failed")
+            response = requests.get(url)
+            if response.status_code == 200:
+                with open(filename, "wb") as f:
+                    f.write(response.content)
+                    print(f'{data_filename} File downloaded successfully')
+            else:
+                print("File download failed")
