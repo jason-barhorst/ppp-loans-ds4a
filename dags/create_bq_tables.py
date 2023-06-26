@@ -32,13 +32,14 @@ with models.DAG(
     )
 
     financial_institution_dim = bigquery.BigQueryCreateEmptyTableOperator(
-        task_id="create_table",
+        task_id="financial_institution_dim",
         dataset_id=DATASET_NAME,
         table_id="financial_institution_dim",
         schema_fields=[
             {"name": "id", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "cert", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "id_rssd", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "ticker", "type": "STRING", "mode": "REQUIRED"},
             {"name": "name", "type": "STRING", "mode": "REQUIRED"},
             {"name": "address", "type": "STRING", "mode": "REQUIRED"},
             {"name": "state", "type": "STRING", "mode": "REQUIRED"},
@@ -49,7 +50,7 @@ with models.DAG(
             {"name": "insfdic", "type": "BOOL", "mode": "REQUIRED"},
             {"name": "offices", "type": "STRING", "mode": "REQUIRED"},
             {"name": "fdicname", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "failed_banks", "type": "ARRAY<STRING>", "mode": "REQUIRED"},
+            {"name": "failed_banks", "type": "STRING", "mode": "REPEATED"},
         ],
     )
 
@@ -69,7 +70,7 @@ with models.DAG(
     )
 
     summary_deposit_fact = bigquery.BigQueryCreateEmptyTableOperator(
-        task_id="ticker_data_fact",
+        task_id="summary_deposit_fact",
         dataset_id=DATASET_NAME,
         table_id="summary_deposit_fact",
         schema_fields=[
@@ -82,7 +83,7 @@ with models.DAG(
     )
 
     loan_data_fact = bigquery.BigQueryCreateEmptyTableOperator(
-        task_id="create_table",
+        task_id="loan_data_fact",
         dataset_id=DATASET_NAME,
         table_id="loan_data_fact",
         schema_fields=[
@@ -98,19 +99,25 @@ with models.DAG(
         ],
     )
 
-    ## Edit
     borrower_dim = bigquery.BigQueryCreateEmptyTableOperator(
-        task_id="create_table",
+        task_id="borrower_dim",
         dataset_id=DATASET_NAME,
         table_id="borrower_dim",
         schema_fields=[
-            {"name": "name", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "id", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "address", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "city", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "state", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "zipcode", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "geo_location", "type": "GEOGRAPHY", "mode": "REQUIRED"},
+            {"name": "name", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "naics_code", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "employee_count", "type": "INTEGER", "mode": "REQUIRED"},
         ],
     )
 
     date_dim = bigquery.BigQueryCreateEmptyTableOperator(
-        task_id="create_table",
+        task_id="date_dim",
         dataset_id=DATASET_NAME,
         table_id="date_dim",
         schema_fields=[
@@ -124,7 +131,7 @@ with models.DAG(
     )
 
     failed_bank_data_dim = bigquery.BigQueryCreateEmptyTableOperator(
-        task_id="create_table",
+        task_id="failed_bank_data_dim",
         dataset_id=DATASET_NAME,
         table_id="failed_bank_data_dim",
         schema_fields=[
