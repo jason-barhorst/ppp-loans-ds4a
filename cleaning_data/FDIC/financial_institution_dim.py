@@ -1,5 +1,5 @@
 import pandas as pd
-import os.path
+
 # from ticker_data import search_for_symbol
 # Disable Setting WithcopyWarning
 pd.options.mode.chained_assignment = None  
@@ -43,12 +43,10 @@ df.rename(columns={'STNAME': 'state', 'CERT': 'cert', 'ADDRESS': 'address',
                    'CITY': 'city', 'DATEUPDT': 'date_updt', 'ACTIVE': 'active'
                    , 'INSFDIC': 'insfdic', 'NAME': 'name', 'OFFICES': 'offices'}, inplace=True)
 
-## Create new columns called the following: id, ticker and failed_banks
-df['ticker'] = df['failed_banks'] = ""
 df['id'] = df.index
 
-## Re-order the columns (id, cert, ticker, name, address, state, city, date_updt, inactive, offices, failed_banks, insfdic)
-df = df.loc[:,['id','cert','ticker','name','address', 'state', 'city', 'date_updt', 'active', 'offices', 'failed_banks', 'insfdic' ]]
+## Re-order the columns (id, cert, ticker, name, address, state, city, date_updt, inactive, offices, insfdic)
+df = df.loc[:,['id','cert','name','address', 'state', 'city', 'date_updt', 'active', 'offices', 'insfdic' ]]
 
 ## Change the date_updt format to YYYY-MM-DDDD
 df['date_updt'] = pd.to_datetime(df["date_updt"], format='mixed')
@@ -58,29 +56,5 @@ active_institution_df = df[df["active"] == 1]
 active_institution_df.reset_index(inplace = True, drop = True)
 active_institution_df['id'] = active_institution_df.index
 
-# TODO: Add the ticker symbol in the column for each entity. [SHOUld BE REMOVED] 
-# active_instit_df['ticker'].iloc[:1] = active_instit_df.iloc[:].apply(lambda row : search_for_symbol(row[2]), axis=1)
-
-# Populate the failed bank list to institution name
-## Check if file exist
-path = './failed_bank_list.csv'
-check_file = os.path.isfile(path)
-
-# If file does not exist, run the script to create it.
-if not check_file:
-    exec(open("failed_bank_data_dim.py").read())
-
-fdic_failed_bank_df = pd.read_csv(path, encoding='utf-8')
-
-fdic_failed_bank_df = fdic_failed_bank_df[['cert', 'bank_name', 'id_closing_date', 'fund']]
-
-fdic_failed_bank_list = fdic_failed_bank_df.values.tolist()
-
-active_institution_df['cert'] = pd.to_numeric(active_institution_df['cert'])
-
-print(active_institution_df[active_institution_df['cert'] == 33653])
-
-
-
 # Export into a JSON or CSV file within the folder named: FDIC
-# df.to_csv('financial_institution_dim.csv', encoding='utf-8')
+active_institution_df.to_csv('financial_institution_dim.csv', encoding='utf-8')
