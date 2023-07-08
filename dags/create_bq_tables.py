@@ -38,7 +38,6 @@ with models.DAG(
         schema_fields=[
             {"name": "id", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "cert", "type": "INTEGER", "mode": "REQUIRED"},
-            # {"name": "ticker", "type": "STRING", "mode": "REQUIRED"},
             {"name": "name", "type": "STRING", "mode": "REQUIRED"},
             {"name": "address", "type": "STRING", "mode": "REQUIRED"},
             {"name": "state", "type": "STRING", "mode": "REQUIRED"},
@@ -47,7 +46,6 @@ with models.DAG(
             {"name": "active", "type": "BOOL", "mode": "REQUIRED"},
             {"name": "insfdic", "type": "BOOL", "mode": "REQUIRED"},
             {"name": "offices", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "failed_banks", "type": "STRING", "mode": "REPEATED"},
         ],
     )
 
