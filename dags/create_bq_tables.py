@@ -100,14 +100,17 @@ with models.DAG(
         table_id="borrower_dim",
         schema_fields=[
             {"name": "id", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "name", "type": "STRING", "mode": "REQUIRED"},
             {"name": "address", "type": "STRING", "mode": "REQUIRED"},
             {"name": "city", "type": "STRING", "mode": "REQUIRED"},
             {"name": "state", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "zipcode", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "geo_location", "type": "GEOGRAPHY", "mode": "REQUIRED"},
-            {"name": "name", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "zip_code", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "rural_urban_indicator", "type": "STRING", "mode": "REQUIRED"},
             {"name": "naics_code", "type": "STRING", "mode": "REQUIRED"},
             {"name": "employee_count", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "latitude", "type": "FLOAT64", "mode": "NULLABLE"},
+            {"name": "longitude", "type": "FLOAT64", "mode": "NULLABLE"},
+            {"name": "geo_location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
         ],
     )
 
