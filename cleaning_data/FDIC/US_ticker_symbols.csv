@@ -1,0 +1,769 @@
+Index,Country,Exchange,Ticker,Name,Market Cap ($MM)
+0,US,NASDAQ,SRCE,1st Source Corp.,"1,046.84"
+1,US,NASDAQ,ACNB,ACNB Corp.,276.07
+2,US,NYSE,ACP.PRA,Aberdeen Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock,
+3,US,NASDAQ,ALRS,Alerus Financial Corp,356.79
+4,US,NASDAQ,ABTX,Allegiance Bancshares Inc,
+5,US,NYSE,ALLY,Ally Financial Inc,"8,010.85"
+6,US,NASDAQ,ALTA,Altabancorp,
+7,US,NASDAQ,AMAL,Amalgamated Financial Corp,493.46
+8,US,NASDAQ,AMTB,Amerant Bancorp Inc - Class A,598.31
+9,US,NASDAQ,AMNB,American National Bankshares Inc.,305.50
+10,US,NASDAQ,ABCB,Ameris Bancorp,"2,378.81"
+11,US,NASDAQ,ASRV,Ameriserv Financial Inc,44.15
+12,US,NASDAQ,ATLO,Ames National Corp.,165.01
+13,US,NASDAQ,AROW,Arrow Financial Corp.,328.38
+14,US,NYSE,ASB.PRE,"Associated Banc-Corp Depositary Shares, each representing a 1/40th interest in a share of 5.875% Non",
+15,US,NYSE,ASB.PRF,"Associated Banc-Corp Depositary Shares, each representing a 1/40th interest in a share of Associated",
+16,US,NYSE,ASB,Associated Banc-Corp.,"2,542.13"
+17,US,NASDAQ,ACBI,Atlantic Capital Bancshares Inc,
+18,US,NASDAQ,AUB,Atlantic Union Bankshares Corp,"1,974.61"
+19,US,NYSE,AUB.PRA,"Atlantic Union Bankshares Corp Depositary Shares, Each Representing a 1/400th Interest in a Share of 6.875% Perpetual Non-Cumulative Preferred Stock, Series A",
+20,US,NASDAQ,AUBN,Auburn National Bancorp Inc.,
+21,US,NYSE,BAC.PRB,BAC Capital Trust X,
+22,ES,,BBVASM,BANCO BILBAO VIZCAYA ARG JR SUBORDINA REGS 12/99 VAR,
+23,CA,TSX,BMO,BANK OF MONTREAL (CHICAGO),"84,967.37"
+24,FR,,BFCCS,BANQUE FED CRED MUTUEL /EUR/ REGD REG S EMTN 0.75000000,
+25,GB,,88HI,BARCLAYS PLC SR UNSECURED REGS 10/23 VAR,
+26,US,NYSE,BBAR,BBVA Argentina - ADR,
+27,US,NASDAQ,BANFP,BFC Capital Trust II - 7.20% PFS REDEEM 31/03/2034 USD 25,
+28,IT,MTA,BFF,BFF Bank SpA,
+29,US,AMEX,BMTX,BM Technologies Inc - Class A,36.37
+30,US,NASDAQ,BOKF,BOK Financial Corp.,"5,547.85"
+31,US,NASDAQ,BLMT,"BSB Bancorp, Inc.",
+32,US,NYSE,BANC,Banc of California Inc,686.70
+33,US,NASDAQ,BANF,Bancfirst Corp.,"3,101.44"
+34,ES,XMAD,BBVA,Banco Bilbao Vizcaya Argentaria SA,
+35,US,NYSE,BBVA,Banco Bilbao Vizcaya Argentaria. - ADR,
+36,US,NYSE,BBD,Banco Bradesco S.A. - ADR,
+37,US,NYSE,BBDO,Banco Bradesco S.A. - ADR (Ord),
+38,US,OTC,BDORY,Banco Do Brasil S.A. - ADR,
+39,US,NYSE,ITCB,Banco Itau Chile. - ADR,
+40,US,NYSE,BLX,Banco Latinoamericano De Comercio Exterior SA - Class E,808.22
+41,US,NYSE,BMA,Banco Macro S.A. - ADR,
+42,AR,,BMAAR,Banco Macro SA,
+43,US,NYSE,BSBR,Banco Santander (Brasil) S.A. - ADR,
+44,BR,B3,SANB11,Banco Santander Brasil SA,"221,070.40"
+45,BR,B3,SANB4,Banco Santander Brasil SA (Preference),"119,805.42"
+46,US,NYSE,BSAC,Banco Santander Chile SA - ADR,
+47,US,NYSE,BSMX,Banco Santander Mexico S.A. - ADR,
+48,MX,,BSANTM,Banco Santander Mexico SA Institucion de Banca Multiple Grupo Financiero Santand,
+49,US,NYSE,SAN,Banco Santander S.A. - ADR,
+50,ES,,SANTAN,Banco Santander SA,
+51,ES,MADX,SAN,Banco Santander SA,
+52,ES,,SAN27A,Banco Santander SA,
+53,CL,,CHILE,Banco de Chile,
+54,US,NYSE,BCH,Banco de Chile - ADR,
+55,US,NYSE,CIB,Bancolombia S.A. - ADR,
+56,CO,,BCOLO,Bancolombia SA,
+57,US,NASDAQ,TBBK,Bancorp Inc. (The),"1,789.36"
+58,US,NYSE,BXS.PRA,BancorpSouth Bank 5.50% Series A Non-Cumulative Perpetual Preferred Stock,
+59,US,NASDAQ,BFC,Bank First Corp,864.49
+60,US,NYSE,BAC,Bank Of America Corp.,"227,439.62"
+61,US,NYSE,BK,Bank Of New York Mellon Corp,"35,029.65"
+62,US,NASDAQ,BKSC,Bank Of South Carolina Corp.,76.62
+63,US,NYSE,BAC.PRL,Bank of America Corp. 7.25% Preferred Perpetual Convertible Series L,
+64,US,NYSE,BML.PRG,Bank of America Corp. Floating Rate Preferred Perpetual Series 1,
+65,US,NYSE,BML.PRH,Bank of America Corp. Floating Rate Preferred Perpetual Series 2,
+66,US,NYSE,BML.PRJ,Bank of America Corp. Floating Rate Preferred Perpetual Series 4,
+67,US,NYSE,BML.PRL,Bank of America Corp. Floating Rate Preferred Perpetual Series 5,
+68,US,NYSE,BAC.PRE,Bank of America Corp. Floating Rate Preferred Perpetual Series E,
+69,US,NYSE,BAC.PRQ,"Bank of America Corporation De Depositary shares Non-Cumulative Preferred Stock, Series QQ",
+70,US,NYSE,BAC.PRP,"Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of",
+71,US,NYSE,BAC.PRK,"Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of",
+72,US,NYSE,BAC.PRM,"Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of",
+73,US,NYSE,BAC.PRO,"Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.",
+74,US,NYSE,BAC.PRN,"Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 5.",
+75,DE,FRA,42I,Bank of Commerce Holdings,
+76,US,NASDAQ,BOCH,Bank of Commerce Holdings,
+77,US,NYSE,BOH,Bank of Hawaii Corp.,"1,662.87"
+78,US,NYSE,BOH.PRA,Bank of Hawaii Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.375,
+79,US,NASDAQ,BOTJ,Bank of James Financial Group Inc,41.94
+80,US,NASDAQ,BMRC,Bank of Marin Bancorp,283.22
+81,US,NYSE,FNGD,Bank of Montreal - ZC SP ETN REDEEM 08/01/2038 USD 50 - Se D FNGD,
+82,US,NYSE,FNGU,Bank of Montreal - ZC SP ETN REDEEM 08/01/2038 USD 50 - Ser D FNGU,
+83,US,NYSE,OILD,Bank of Montreal - ZC SP ETN REDEEM 28/06/2041 USD 25 - 063679575,
+84,US,NYSE,OILU,Bank of Montreal - ZC SP ETN REDEEM 28/06/2041 USD 25 - 063679583,
+85,US,NYSE,WTIU,Bank of Montreal - ZC SP ETN REDEEM 29/01/2043 USD 25,
+86,US,NYSE,SHNY,Bank of Montreal - ZC SP ETN REDEEM 29/01/2043 USD 25 - 063679526,
+87,US,NYSE,WTID,Bank of Montreal - ZC SP ETN REDEEM 29/01/2043 USD 25 - 06368L403,
+88,US,NYSE,DULL,Bank of Montreal - ZC SP ETN REDEEM 29/01/2043 USD 25 - 63679518,
+89,US,NYSE,FLYU,Bank of Montreal - ZC SP ETN REDEEM 29/05/2042 USD 25,
+90,US,NYSE,FLYD,Bank of Montreal - ZC SP ETN REDEEM 29/05/2042 USD 25 - 06368J101,
+91,US,NYSE,NTB,Bank of N T Butterfield & Son Ltd.,"1,386.74"
+92,BM,,NTBBH,Bank of NT Butterfield and Son Ltd/The,
+93,CA,TSX,BNS,Bank of Nova Scotia (The),"76,623.26"
+94,US,NASDAQ,BSVN,Bank7 Corp,231.00
+95,US,OTC,BKGM,BankGuam Holding Co,0.28
+96,US,NASDAQ,BWFG,Bankwell Financial Group Inc,188.16
+97,US,NASDAQ,BANR,Banner Corp.,"1,529.95"
+98,FR,,BFCM,Banque Federative du Credit Mutuel SA,
+99,US,AMEX,BHB,Bar Harbor Bankshares Inc,369.05
+100,GB,,BCS21D,Barclays Bank PLC,
+101,US,BATS,ATMP,Barclays Bank PLC - FR SP ETN REDEEM 18/03/2043 USD 25 - Ser A,
+102,US,NYSE,OIL,Barclays Bank PLC - ZC SP ETN REDEEM 18/04/2041 USD 50 - 06740P221,
+103,US,BATS,VXX,Barclays Bank PLC - ZC SP ETN REDEEM 23/01/2048 USD 27.193879 - Ser A ShortTerm Futu,
+104,US,NYSE,DJP,Barclays Bank PLC - ZC SP REDEEM 12/06/2036 USD 50 - 06738C778,
+105,GB,,BARCCP CP 0 11/05/19,Barclays Bank plc,
+106,GB,LSE,83SF,Barclays Bank plc,
+107,GB,LSE,47MC,Barclays Bank plc,
+108,GB,LSE,83SK,Barclays Bank plc,
+109,GB,,GBF004,Barclays PLC,
+110,GB,,BAR18,Barclays PLC,
+111,GB,,23BM,Barclays PLC,
+112,GB,,59JM,Barclays PLC,
+113,GB,,94HC,Barclays PLC,
+114,GB,,44BN,Barclays PLC,
+115,GB,,BACR,Barclays PLC,
+116,GB,LSE,BARC,Barclays PLC,"23,113.28"
+117,US,OTC,BCLYF,Barclays plc,
+118,US,NYSE,BCS,Barclays plc - ADR,
+119,US,NASDAQ,BCML,BayCom Corp,207.14
+120,US,NASDAQ,BAFN,BayFirst Financial Corp,54.88
+121,US,OTC,BMBN,Benchmark Bankshares Inc.,
+122,US,OTC,BERK,Berkshire Bancorp Inc,
+123,US,AMEX,BRBS,Blue Ridge Bankshares Inc (VA),167.25
+124,CH,SIX,BOSN,Bossard Holding AG,"1,480.80"
+125,US,NASDAQ,BWB,Bridgewater Bancshares Inc,266.50
+126,US,NASDAQ,BMTC,Bryn Mawr Bank Corp.,
+127,US,OTC,BHRB,Burke & Herbert Financial Services Corp.,
+128,US,NASDAQ,BFST,Business First Bancshares Inc.,374.48
+129,US,NYSE,BY,Byline Bancorp Inc,687.82
+130,US,NASDAQ,CFFI,C & F Financial Corp,187.18
+131,US,NASDAQ,CBFV,CB Financial Services Inc,103.67
+132,US,OTC,CCFN,CCFNB Bancorp Inc.,89.42
+133,JP,,CENEXP,CENTRAL NIPPON EXPRESSWY SR UNSECURED REGS 05/21 2.362,
+134,US,NASDAQ,CFBK,CF Bankshares Inc,
+135,CH,BRN,QIT1,CIT Group Inc,
+136,DE,BER,QIT1,CIT Group Inc,
+137,US,NYSE,CIT,CIT Group Inc,
+138,US,NYSE,CIT.PRB,"CIT Group Inc. 5.625 % Non-Cumulative Perpetual Preferred Stock, Series B",
+139,US,NASDAQ,CCNE,CNB Financial Corp (PA),374.34
+140,US,OTC,CBMI,CSB Bancorp Inc (Michigan),
+141,US,OTC,CSBB,"CSB Bancorp, Inc.",101.14
+142,US,NASDAQ,CVBF,CVB Financial Corp.,"1,893.64"
+143,US,NYSE,CADE,Cadence Bank,"3,582.44"
+144,US,NYSE,CADE.PRA,Cadence Bank 5.50% Series A No 5.50% Series A Non-Cumulative Perpetual Preferred Stock,
+145,US,NASDAQ,CALB,California Bancorp,133.60
+146,US,OTC,CFNB,California First Leasing Corp,144.58
+147,US,OTC,TYCB,"Calvin b. Taylor Bankshares, Inc.",115.85
+148,US,NYSE,AFKA,Cambria Africa ETF,
+149,US,NYSE,FXFX,Cambria Global Income and Currency Strategies ETF,
+150,US,BATS,TOKE,Cambria Investment Management LP - Cambria Cannabis ETF,
+151,US,BATS,VAMO,Cambria Investment Management LP - Cambria ETF Trust Cambria Value and Momentum ETF,
+152,US,BATS,EYLD,Cambria Investment Management LP - Cambria Emerging Shareholder Yield ETF,
+153,US,BATS,FYLD,Cambria Investment Management LP - Cambria Foreign Shareholder Yield ETF,
+154,US,BATS,GAA,Cambria Investment Management LP - Cambria Global Asset Allocation ETF,
+155,US,BATS,GMOM,Cambria Investment Management LP - Cambria Global Momentum ETF,
+156,US,BATS,BLDG,Cambria Investment Management LP - Cambria Global Real Estate ETF,
+157,US,BATS,GVAL,Cambria Investment Management LP - Cambria Global Value ETF,
+158,US,BATS,SYLD,Cambria Investment Management LP - Cambria Shareholder Yield ETF,
+159,US,BATS,TAIL,Cambria Investment Management LP - Cambria Tail Risk ETF,
+160,US,BATS,TRTY,Cambria Investment Management LP - Cambria Trinity ETF,
+161,US,NYSE,MFUT,Cambria Managed Futures Strategy ETF,
+162,US,NASDAQ,CATC,Cambridge Bancorp,428.99
+163,US,NASDAQ,CAC,Camden National Corp.,436.32
+164,IN,BSE,511196,Can Fin Homes Ltd,
+165,US,NYSE,CM,Canadian Imperial Bank Of Commerce,"38,334.99"
+166,CA,,13607GKW,Canadian Imperial Bank of Commerce,
+167,CA,TSX,CM,Canadian Imperial Bank of Commerce,"50,918.79"
+168,US,OTC,CNND,Canandaigua National Corp.,421.00
+169,US,NASDAQ,CSTR,CapStar Financial Holdings Inc,256.51
+170,US,NASDAQ,CCBG,"Capital City Bank Group, Inc.",515.59
+171,US,NYSE,COF,Capital One Financial Corp.,"41,257.98"
+172,US,NYSE,COF.PRJ,"Capital One Financial Corporation Depositary Shares, Each Representing a 1/40th Interest in a Share",
+173,US,NYSE,COF.PRL,"Capital One Financial Corporation Depositary Shares, Each Representing a 1/40th Interest in a Share",
+174,US,NYSE,COF.PRN,"Capital One Financial Corporation Depositary Shares, Each Representing a 1/40th Ownership Interest i",
+175,US,NYSE,COF.PRK,"Capital One Financial Corporation Depositary Shares, Each Representing a 1/40th Ownership Interest i",
+176,US,NYSE,COF.PRI,Capital One Financial Corporation Depositary shares each representing a 1/40th interest in a share o,
+177,US,NASDAQ,CARE,Carter Bankshares Inc,356.04
+178,US,NASDAQ,CATY,Cathay General Bancorp,"2,390.05"
+179,US,NYSE,CPF,Central Pacific Financial Corp.,421.29
+180,US,NASDAQ,CVCY,Central Valley Community Bancorp,184.91
+181,US,OTC,CFCX,Centric Financial Corp,
+182,US,NASDAQ,CNBKA,"Century Bancorp, Inc. - Class A",
+183,US,OTC,CNBKB,"Century Bancorp, Inc. - Class B",
+184,US,NASDAQ,CHMG,Chemung Financial Corp.,178.18
+185,US,OTC,CPKF,Chesapeake Financial Shares Inc,94.01
+186,US,OTC,CCBC,Chino Commercial Bancorp,
+187,US,NASDAQ,COFS,"Choiceone Financial Services, Inc.",166.34
+188,US,NYSE,C,Citigroup Inc,"89,005.49"
+189,US,NYSE,C.PRK,"Citigroup, Inc., 6.875% Dep Shares Fixed/Float Non-Cumul Preferred Stock Ser K",
+190,US,NYSE,C.PRJ,"Citigroup, Inc., 7.125% Dep Shares Fixed/Float Non-Cumul Preferred Stock Ser J",
+191,US,NASDAQ,CZNC,Citizens & Northern Corp,296.78
+192,US,OTC,CZBS,Citizens Bancshares Corp.,
+193,US,OTC,CFIN,Citizens Financial Corp (Kentucky) - Class A,
+194,US,OTC,CIWV,Citizens Financial Corp (West Virginia),37.92
+195,US,NYSE,CFG,Citizens Financial Group Inc,"13,033.80"
+196,US,NYSE,CFG.PRD,"Citizens Financial Group, Inc. Depositary Shares, each representing a 1/40th Interest in a Share of",
+197,US,NYSE,CFG.PRE,"Citizens Financial Group, Inc.Depositary Shares Each Representing 1/40th Interest in a Share of 5.00",
+198,US,OTC,CZFS,"Citizens Financial Services, Inc.",283.61
+199,US,NASDAQ,CIZN,Citizens Holding Co,66.42
+200,US,NASDAQ,CHCO,City Holding Co.,"1,354.78"
+201,US,NASDAQ,CIVB,Civista Bancshares Inc,268.22
+202,US,OTC,CCNB,Coastal Carolina Bancshares Inc,54.09
+203,US,NASDAQ,CCB,Coastal Financial Corp,498.72
+204,US,NASDAQ,CBAN,"Colony Bankcorp, Inc.",164.33
+205,US,NASDAQ,COLB,"Columbia Banking System, Inc.","4,321.34"
+206,US,NYSE,CMA,"Comerica, Inc.","5,826.39"
+207,US,NASDAQ,CBSH,"Commerce Bancshares, Inc.","6,062.53"
+208,US,OTC,CMTV,Community Bancorp Inc Vermont,98.20
+209,US,NYSE,CBU,"Community Bank System, Inc.","2,381.80"
+210,DE,FRA,44U,Community Bankers Trust Corp,
+211,US,NASDAQ,ESXB,Community Bankers Trust Corp,
+212,US,NASDAQ,TCFC,Community Financial Corp,153.58
+213,US,OTC,CMHF,Community Heritage Financial Inc,42.43
+214,US,NASDAQ,CTBI,"Community Trust Bancorp, Inc.",647.77
+215,US,NASDAQ,CWBC,Community West Bancshares,108.06
+216,US,NASDAQ,CNOB,ConnectOne Bancorp Inc.,634.47
+217,US,OTC,CBKM,"Consumers Bancorp, Inc.",55.66
+218,US,OTC,CFIC,Cornerstone Financial Corp,20.17
+219,DE,FRA,841,County Bancorp Inc,
+220,US,NASDAQ,ICBK,County Bancorp Inc,
+221,US,NYSE,BAP,Credicorp Ltd,"12,060.23"
+222,US,OTC,CHBH,"Croghan Bancshares, Inc.",
+223,US,NASDAQ,CFB,Crossfirst Bankshares Inc,504.96
+224,US,NYSE,CFR,Cullen Frost Bankers Inc.,"6,928.00"
+225,US,NYSE,CFR.PRB,"Cullen/Frost Bankers, Inc. Depositary Shares, each representing a 1/40th ownership interest in a sha",
+226,US,NYSE,CUBI,Customers Bancorp Inc,"1,028.12"
+227,US,NYSE,CUBI.PRF,Customers Bancorp Inc.,
+228,US,NYSE,CUBI.PRE,Customers Bancorp Inc.,
+229,KY,,DPWDU,DPWDU 3.7495 01/30/30 144A,
+230,KY,,75ZB,DPWDU 3.7495 01/30/30 REGS,
+231,KY,,71TX,DPWDU 3.875 07/18/29 EMTN,
+232,KY,,38DM,DPWDU 3.908 05/31/23 REGS,
+233,US,OTC,DBIN,Dacotah Banks Inc.,387.69
+234,US,OTC,DWNX,Delhi Bank Corp,
+235,US,NYSE,DGZ,Deutsche Bank AG London - ZC SP ETN REDEEM 15/02/2038 USD 25,
+236,US,NYSE,DGP,Deutsche Bank AG London - ZC SP ETN REDEEM 15/02/2038 USD 25 - 25154H749,
+237,US,NYSE,DZZ,Deutsche Bank AG London - ZC SP ETN REDEEM 15/02/2038 USD 25 - 25154H756,
+238,DE,,DB,Deutsche Bank AG/New York NY,
+239,US,NASDAQ,DCOM,Dime Community Bancshares Inc,694.69
+240,US,NYSE,CAPE,DoubleLine ETF Trust - DoubleLine Shiller CAPE U.S. Equities ETF,
+241,US,OTC,ENBP,ENB Financial Corp,80.68
+242,US,NASDAQ,EGBN,Eagle Bancorp Inc (MD),663.92
+243,US,NASDAQ,EBMT,Eagle Bancorp Montana Inc,101.51
+244,US,OTC,EFSI,"Eagle Financial Services, Inc.",108.65
+245,US,NASDAQ,EWBC,"East West Bancorp, Inc.","7,705.34"
+246,US,OTC,EMYB,Embassy Bancorp Inc,112.13
+247,US,NASDAQ,EMCF,Emclaire Financial Corp.,
+248,US,NASDAQ,EBTC,"Enterprise Bancorp, Inc.",347.22
+249,US,NASDAQ,EFSC,Enterprise Financial Services Corp.,"1,478.69"
+250,US,OTC,EFSG,Enterprise Financial Services Group Inc - Class A,
+251,US,NASDAQ,EQBK,Equity Bancshares Inc - Class A,351.57
+252,US,NASDAQ,ESQ,Esquire Financial Holdings Inc,340.22
+253,US,AMEX,EVBN,Evans Bancorp Inc,132.87
+254,US,NYSE,CUBS,Exchange Listed Funds Trust - Asian Growth Cubs ETF,
+255,US,OTC,FMBM,F & M Bank Corp.,73.70
+256,US,NYSE,FNB.PRE,F.N.B. Corp.,
+257,US,NYSE,FNB,F.N.B. Corp.,"4,224.48"
+258,US,NYSE,FBK,FB Financial Corp,"1,302.85"
+259,US,OTC,FBIP,FNB Bancorp Inc. (PA),44.42
+260,US,OTC,FIDS,FNB Inc,
+261,US,OTC,FNHM,FNBH Bancorp Inc,
+262,US,NASDAQ,FNCB,FNCB Bancorp Inc,113.58
+263,US,NASDAQ,FVCB,FVCBankcorp Inc,186.60
+264,US,OTC,FMCB,Farmers & Merchants Bancorp,739.52
+265,US,NASDAQ,FMNB,Farmers National Banc Corp.,460.78
+266,US,NASDAQ,FDBC,"Fidelity D&D Bancorp, Inc.",265.59
+267,US,NASDAQ,FITB,Fifth Third Bancorp,"18,134.27"
+268,US,NASDAQ,FINW,FinWise Bancorp,110.55
+269,US,NASDAQ,FISI,Financial Institutions Inc.,247.09
+270,US,NASDAQ,FBNC,First Bancorp,"1,246.00"
+271,US,NASDAQ,FNLC,First Bancorp Inc (ME),273.09
+272,US,NYSE,FBP,First Bancorp PR,"2,249.18"
+273,US,OTC,FIBH,First Bancshares Inc,
+274,US,NASDAQ,FBMS,First Bancshares Inc Miss,810.16
+275,US,OTCM,FTFI,First Berlin Bancorp Inc,
+276,US,NASDAQ,BUSE,First Busey Corp.,"1,134.22"
+277,US,NASDAQ,FBIZ,First Business Financial Services Inc,242.33
+278,US,OTC,FIZN,First Citizens Bancshares Inc,
+279,US,OTC,FCNCB,"First Citizens Bancshares, Inc (NC) - Class B",
+280,US,NYSE,FCF,First Commonwealth Financial Corp.,"1,294.55"
+281,US,NASDAQ,FCBC,First Community Bankshares Inc.,580.50
+282,US,NASDAQ,FCCO,First Community Corp.,132.25
+283,US,OTC,FCCT,First Community Corporation (TN),
+284,US,OTC,FFMH,First Farmers & Merchants Corp,
+285,US,NASDAQ,FFBC,First Financial Bancorp,"1,956.39"
+286,US,NASDAQ,FFIN,"First Financial Bankshares, Inc.","4,039.98"
+287,US,NASDAQ,THFF,First Financial Corp. - Indiana,393.47
+288,US,NASDAQ,FFNW,First Financial Northwest Inc,103.10
+289,US,NASDAQ,FFWM,First Foundation Inc,217.80
+290,US,NASDAQ,FHB,First Hawaiian INC,"2,361.19"
+291,US,NYSE,FHN,First Horizon Corporation,"6,362.31"
+292,US,NYSE,FHN.PRF,"First Horizon Corporation Depositary Shares, each representing 1/4000th Interest in a Share of Non-C",
+293,US,NYSE,FHN.PRE,"First Horizon National Corporation Depositary Shares, Each Representing a 1/ 4000th Interest in a Sh",
+294,US,NYSE,FHN.PRC,"First Horizon National Corporation Depositary Shares, each representing a 1/400th interest in a shar",
+295,US,NYSE,FHN.PRD,"First Horizon National Corporation Depositary Shares, each representing a 1/400th interest in a shar",
+296,US,NYSE,FHN.PRB,"First Horizon National Corporation Depositary Shares, each representing a 1/400th interest in a shar",
+297,US,NASDAQ,INBK,First Internet Bancorp,136.66
+298,US,NASDAQ,FIBK,First Interstate BancSystem Inc.,"2,455.97"
+299,US,OTC,FKYS,First Keystone Corp.,111.32
+300,US,NASDAQ,FRME,First Merchants Corp.,"1,688.97"
+301,US,NASDAQ,FMBH,First Mid Bancshares Inc.,507.48
+302,US,NASDAQ,FXNC,"First National Corp. (Strasburg, VA)",103.42
+303,US,NASDAQ,FLIC,First Of Long Island Corp.,277.21
+304,US,OTC,FOTB,First Ottawa Bancshares Inc,
+305,US,OTC,FSRL,First Reliance Bancshares Inc. (SC),51.88
+306,US,NASDAQ,FUSB,First US Bancshares Inc,49.69
+307,US,NASDAQ,FUNC,First United Corporation,93.58
+308,US,NASDAQ,MYFW,First Western Financial Inc,176.73
+309,US,OTCM,FSUN,Firstsun Capital Bancorp,621.86
+310,US,NASDAQ,FSBC,Five Star Bancorp,379.18
+311,US,NASDAQ,FFIC,Flushing Financial Corp.,361.09
+312,US,NASDAQ,FRAF,Franklin Financial Services Corp.,120.93
+313,US,NASDAQ,FULT,Fulton Financial Corp.,"1,974.28"
+314,US,OTC,GNBF,"GNB Financial Services, Inc.",
+315,CH,SIX,GALE,Galenica AG,"3,492.12"
+316,US,NASDAQ,GABC,German American Bancorp Inc,798.48
+317,US,NASDAQ,GBCI,"Glacier Bancorp, Inc.","3,369.35"
+318,US,NASDAQ,GLBZ,Glen Burnie Bancorp,22.12
+319,US,OTC,EMM,Global X Funds - Global X Emerging Markets ETF,
+320,CA,,GCCT,Golden Credit Card Trust,
+321,US,OTC,GNRV,Grand River Commerce Inc,26.48
+322,US,NASDAQ,GSBC,"Great Southern Bancorp, Inc.",618.94
+323,DE,BER,2GW,Great Western Bancorp Inc,
+324,US,NYSE,GWB,Great Western Bancorp Inc,
+325,US,,GAFFX,Growth Fund Of America - Growth Fund of America - Class F-3,
+326,US,NYSE,AVAL,Grupo Aval Acciones y Valores S.A. - ADR,
+327,CO,,PFAVAL,Grupo Aval Acciones y Valores SA,
+328,US,NASDAQ,GGAL,Grupo Financiero Galicia - ADR,
+329,US,NYSE,SUPV,Grupo Supervielle S.A. - ADR,
+330,US,OTC,GUAA,Guaranty Bancorp Inc,
+331,US,NASDAQ,GNTY,"Guaranty Bancshares, Inc. (TX)",318.15
+332,US,NASDAQ,GFED,Guaranty Federal Bancshares Inc,
+333,US,NASDAQ,HBT,HBT Financial Inc,585.39
+334,IN,NSE,HDFCBANK,HDFC Bank Ltd INR1,"9,358,512.96"
+335,US,NYSE,HDB,HDFC Bank Ltd. - ADR,
+336,US,NASDAQ,HVBC,HV Bancorp Inc,77.59
+337,US,NASDAQ,HWC,Hancock Whitney Corp.,"3,419.84"
+338,US,NASDAQ,HAFC,Hanmi Financial Corp.,464.97
+339,US,NASDAQ,HNVR,Hanover Bancorp Inc,
+340,US,OTC,HRBK,Harbor Bankshares Corp.,
+341,US,NASDAQ,HONE,HarborOne Bancorp Inc.,407.01
+342,US,OTC,HFBK,Harford Bank of Aberdeen,47.78
+343,US,NYSE,HCOR,Hartford Corporate Bond ETF,
+344,US,BATS,HCRB,Hartford Funds Exchange-Traded Trust - Hartford Core Bond ETF,
+345,US,NYSE,HFGO,Hartford Funds Exchange-Traded Trust - Hartford Large Cap Growth ETF,
+346,US,NYSE,HMOP,Hartford Funds Exchange-Traded Trust - Hartford Municipal Opportunities ETF,
+347,US,NYSE,HCOM,Hartford Funds Exchange-Traded Trust - Hartford Schroders Commodity Strategy ETF,
+348,US,BATS,HEET,Hartford Funds Exchange-Traded Trust - Hartford Schroders ESG US Equity ETF,
+349,US,NYSE,HTAB,Hartford Funds Exchange-Traded Trust - Hartford Schroders Tax Aware Bond ETF,
+350,US,BATS,HSRT,Hartford Funds Exchange-Traded Trust - Hartford Short Duration ETF,
+351,US,NYSE,HSUN,Hartford Funds Exchange-Traded Trust - Hartford Sustainable Income ETF,
+352,US,NYSE,HTRB,Hartford Funds Exchange-Traded Trust - Hartford Total Return Bond ETF,
+353,US,NYSE,HQBD,Hartford Quality Bond ETF,
+354,US,NASDAQ,HWBK,Hawthorn Bancshares Inc,116.67
+355,US,NASDAQ,HTLF,"Heartland Financial USA, Inc.","1,246.98"
+356,US,NASDAQ,HTBK,Heritage Commerce Corp.,518.25
+357,US,OTC,HBSI,Highlands Bankshares Inc (WV),57.15
+358,US,OTC,HBIA,Hills Bancorporation,614.65
+359,US,NYSE,HTH,Hilltop Holdings Inc,"2,027.44"
+360,US,NASDAQ,HOMB,Home Bancshares Inc,"4,631.92"
+361,US,NASDAQ,HMST,HomeStreet Inc,115.42
+362,US,NASDAQ,HOPE,Hope Bancorp Inc,"1,025.95"
+363,US,NASDAQ,HBNC,Horizon Bancorp Inc (IN),451.09
+364,US,NASDAQ,HBMD,Howard Bancorp Inc,
+365,VG,,HRRLET,Huarong Universe Investment Holding Ltd,
+366,US,NASDAQ,HBAN,"Huntington Bancshares, Inc.","15,699.31"
+367,AE,,ICICI,ICICI BANK LTD/DUBAI SR UNSECURED REGS 01/20 3.65,
+368,IN,NSE,ICICIBANK,ICICI Bank Ltd,"6,706,728.21"
+369,US,NYSE,IBN,ICICI Bank Ltd. - ADR,
+370,US,NYSE,ING,ING Groep N.V. - ADR,
+371,NL,,INTNED,ING Groep NV,
+372,NL,,ING27,ING Groep NV,
+373,NL,AMS,INGA,ING Groep NV,"44,225.31"
+374,BR,B3,ITAU,ITAU V6.125 PERP REGS,
+375,US,NASDAQ,INDB,Independent Bank Corp.,"2,037.69"
+376,US,NASDAQ,IBCP,"Independent Bank Corporation (Ionia, MI)",360.03
+377,US,NASDAQ,IBTX,Independent Bank Group Inc,"1,471.27"
+378,PA,,IFSPE,Intercorp Financial Services Inc,
+379,PE,,IFSPE,Intercorp Financial Services Inc,
+380,PE,LIM,IFS,Intercorp Financial Services Inc,
+381,US,NYSE,IFS,Intercorp Financial Services Inc,"2,791.97"
+382,US,NASDAQ,IBOC,International Bancshares Corp.,"2,777.14"
+383,US,NYSE,DBP,Invesco DB Multi-Sector Commodity Trust - Invesco DB Precious Metals Fund,
+384,CA,TSX,DBO,Invesco DB Oil Fund,20.92
+385,US,NASDAQ,ISTR,Investar Holding Corp,115.93
+386,US,OTC,ISBA,Isabella Bank Corp,162.70
+387,US,NYSE,ITUB,Itau Unibanco Holding S.A. - ADR,
+388,BR,B3,ITUB3,Itau Unibanco Holding SA,"244,793.50"
+389,US,NYSE,JPM,JPMorgan Chase & Co.,"421,773.90"
+390,US,NYSE,AMJ,JPMorgan Chase & Co. - FR SP ETN REDEEM 24/05/2024 USD 19.03661,
+391,US,NYSE,JPM.PRM,"JPMorgan Chase & Co. Depositary Shares, each representing a 1/400th interest in a share of 4.20% Non",
+392,US,NYSE,JPM.PRK,"JPMorgan Chase & Co. Depositary Shares, each representing a 1/400th interest in a share of 4.55% Non",
+393,US,NYSE,JPM.PRL,"JPMorgan Chase & Co. Depositary Shares, each representing a 1/400th interest in a share of 4.625% No",
+394,US,NYSE,JPM.PRC,"JPMorgan Chase & Co. Depositary Shares, each representing a 1/400th interest in a share of 6.00% Non",
+395,US,NYSE,JPM.PRD,"JPMorgan Chase & Co., Preferred D",
+396,JP,,JBH0,Japan Government Ten Year Bond,
+397,JP,,BJZ9,Japan Government Ten Year Bond,
+398,US,OTC,JDVB,Jd Bancshares Inc,
+399,US,OTC,JMSB,John Marshall Bancorp Inc,276.15
+400,US,NYSE,JUNE,Junee Ltd,
+401,US,OTC,JUVF,Juniata Valley Financial Corp.,72.70
+402,US,NYSE,KB,KB Financial Group Inc - ADR,
+403,US,NYSE,KEY.PRI,KeyCorp,
+404,US,NYSE,KEY.PRL,"KeyCorp Depositary Shares each Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock, Series H",
+405,US,NYSE,KEY.PRJ,KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Per,
+406,US,NYSE,KEY,Keycorp,"8,955.16"
+407,US,OTC,KISB,"Kish Bancorp, Inc.",83.76
+408,US,NASDAQ,LCNB,LCNB Corp,162.99
+409,GB,,92ZU,LLOYDS BANKING GROUP PLC /EUR/ REGD V/R REG S EMTN 0.50000000,
+410,CN,,601012,LONGi Green Energy Technology Co Ltd,
+411,US,NASDAQ,LBAI,"Lakeland Bancorp, Inc.",868.00
+412,US,NASDAQ,LKFN,Lakeland Financial Corp.,"1,218.90"
+413,US,NASDAQ,LARK,Landmark Bancorp Inc,113.86
+414,US,NASDAQ,LEVL,Level One Bancorp Inc,
+415,US,NASDAQ,LMST,Limestone Bancorp Inc,
+416,US,OTC,LNKB,Linkbancorp Inc,94.12
+417,US,NASDAQ,LOB,Live Oak Bancshares Inc,"1,187.61"
+418,GB,,LLOYDS,Lloyds Bank PLC,
+419,GB,LSE,LLOY,Lloyds Banking Group PLC,"27,770.48"
+420,US,NYSE,LYG,Lloyds Banking Group plc - ADR,
+421,US,NASDAQ,LBC,Luther Burbank Corp,453.64
+422,US,OTC,LYBC,"Lyons Bancorp, Inc.",
+423,US,OTC,MFBP,M & F Bancorp Inc,40.61
+424,US,NYSE,MTB,M & T Bank Corp,"21,327.54"
+425,US,NYSE,MTB.PRH,"M&T Bank Corporation Perpetual Perpetual Fixed-to-Floating Rate Non-Cumulative Preferred Stock, Series H",
+426,JP,TYO,8411,MIZUHO 0 1/2 01/26/27,"5,658,919.04"
+427,US,NASDAQ,MVBF,MVB Financial Corp.,268.12
+428,US,NASDAQ,MCBC,Macatawa Bank Corp.,310.35
+429,US,NASDAQ,MFNC,Mackinac Financial Corp.,
+430,US,NASDAQ,MNSB,MainStreet Bancshares Inc,164.41
+431,DE,FRA,MBM,Marlin Business Services Corp,
+432,US,NASDAQ,MRLN,Marlin Business Services Corp,
+433,US,NASDAQ,MBWM,Mercantile Bank Corp.,448.94
+434,BD,DHA,MERCANBANK,Mercantile Bank Ltd,
+435,US,NASDAQ,MBIN,Merchants Bancorp,"1,137.91"
+436,DE,FRA,3MR,Meridian Bancorp Inc,
+437,US,NASDAQ,EBSB,Meridian Bancorp Inc,
+438,US,NASDAQ,MRBK,Meridian Corp,113.22
+439,US,NASDAQ,MCBS,MetroCity Bankshares Inc,454.35
+440,US,NYSE,MCB,Metropolitan Bank Holding Corp,406.18
+441,US,NASDAQ,MPB,"Mid Penn Bancorp, Inc.",376.64
+442,US,NASDAQ,MOFG,MidWestOne Financial Group Inc,331.53
+443,US,NASDAQ,MBCN,Middlefield Banc Corp.,213.58
+444,US,NASDAQ,MSBI,Midland States Bancorp Inc,446.45
+445,US,OTC,MSLXP,"Midsouth Bancorp, Inc. - 4% PRF PERPETUAL USD 100 - Ser C",
+446,US,OTC,MSBC,Mission Bancorp,
+447,JP,,MUFG,Mitsubishi UFJ Financial Group Inc,
+448,JP,TYO,8306,Mitsubishi UFJ Financial Group Inc,"12,715,005.05"
+449,US,NYSE,MUFG,"Mitsubishi UFJ Financial Group, Inc. - ADR",
+450,JP,,MIZUHO,Mizuho Bank Ltd.,
+451,US,NYSE,MFG,"Mizuho Financial Group, Inc. - ADR",
+452,US,OTC,MCBI,Mountain Comm Bancorp Inc,101.77
+453,GB,,34TX,NATWEST GROUP PLC /GBP/ REGD V/R REG S EMTN 2.87500000,
+454,GB,,20BI,NATWEST MARKETS PLC SR UNSECURED REGS 03/20 VAR,
+455,US,NASDAQ,NBTB,NBT Bancorp. Inc.,"1,374.65"
+456,US,NYSE,NWG,NatWest Group Plc - ADR,
+457,US,NYSE,NBHC,National Bank Holdings Corp - Class A,"1,136.60"
+458,CA,TSX,NA,National Bank of Canada,"33,163.18"
+459,CA,,NACN,National Bank of Canada,
+460,US,NASDAQ,NKSH,National Bankshares Inc.,172.98
+461,GB,,NWG,Natwest Group PLC,
+462,US,NYSE,GF,New Germany Fund Inc,
+463,US,OTC,NWPP,New Peoples Bankshares Inc,54.79
+464,US,NASDAQ,NEWT,NewtekOne Inc,409.42
+465,US,NYSE,NIC,Nicolet Bankshares Inc.,997.38
+466,US,NASDAQ,NBN,Northeast Bank,314.34
+467,US,NASDAQ,NTRS,Northern Trust Corp.,"15,479.84"
+468,US,NASDAQ,NWBI,Northwest Bancshares Inc,"1,350.68"
+469,US,NASDAQ,NWFL,Norwood Financial Corp.,243.45
+470,US,NYSE,OFG,OFG Bancorp,"1,271.37"
+471,US,NASDAQ,OPBK,OP Bancorp,130.64
+472,US,OTC,BKOR,Oak Ridge Financial Services Inc,
+473,US,NASDAQ,OVLY,Oak Valley Bancorp,214.58
+474,US,NASDAQ,OCFC,OceanFirst Financial Corp.,935.70
+475,US,OTC,OSBK,Oconee Financial Corp,
+476,US,NASDAQ,OVBC,Ohio Valley Banc Corp.,116.55
+477,US,NASDAQ,ONB,Old National Bancorp,"4,111.02"
+478,US,NASDAQ,OPOF,Old Point Financial Corp.,88.51
+479,US,NASDAQ,OSBC,Old Second Bancorporation Inc.,589.58
+480,JP,TYO,8289,Olympic Group Corp,"12,794.69"
+481,OM,,OMAN,Oman Government International Bond,
+482,US,NASDAQ,OPHC,Optimumbank Holdings Inc.,21.03
+483,US,NASDAQ,OBT,Orange County Bancorp Inc,195.52
+484,US,OTC,ORPB,Oregon Pacific Bancorp,40.13
+485,US,NYSE,OBK,Origin Bancorp Inc,884.64
+486,US,NASDAQ,ORRF,"Orrstown Financial Services, Inc.",215.51
+487,US,NASDAQ,PCB,PCB Bancorp.,216.77
+488,JP,,6523,PHC Holdings Corp,
+489,US,NYSE,PNC,PNC Financial Services Group Inc,"50,139.94"
+490,US,OTC,PSBQ,PSB Holdings Inc (WI),89.99
+491,US,OTC,PFLC,Pacific Financial Corp.,
+492,US,NASDAQ,PMBC,Pacific Mercantile Bancorp,
+493,US,NASDAQ,PPBI,"Pacific Premier Bancorp, Inc.","2,019.46"
+494,US,NASDAQ,PACW,Pacwest Bancorp,951.97
+495,US,AMEX,PRK,Park National Corp.,"1,638.47"
+496,US,NASDAQ,PKBK,Parke Bancorp Inc,202.85
+497,US,NASDAQ,PTRS,Partners Bancorp,112.41
+498,US,NASDAQ,PBHC,"Pathfinder Bancorp, Inc.",82.95
+499,US,NASDAQ,CASH,Pathward Financial Inc,"1,268.40"
+500,US,NASDAQ,PNBK,Patriot National Bancorp Inc,32.71
+501,US,NASDAQ,PGC,Peapack-Gladstone Financial Corp.,479.98
+502,US,NASDAQ,PWOD,"Penns Woods Bancorp, Inc.",173.67
+503,US,OTC,PEBC,Peoples Bancorp Inc (MD),
+504,US,NASDAQ,PEBK,Peoples Bancorp Of North Carolina Inc,104.00
+505,US,NASDAQ,PEBO,"Peoples Bancorp, Inc. (Marietta, OH)",740.54
+506,US,OTC,PFBX,Peoples Financial Corp Miss,56.37
+507,US,NASDAQ,PFIS,Peoples Financial Services Corp,303.26
+508,PH,PSE,PHILIP,Philippine Government International Bond,
+509,US,OTC,PBNK,Pinnacle Bank,
+510,US,OTC,PPBN,Pinnacle Bankshares Corp.,42.10
+511,US,NASDAQ,PNFP,Pinnacle Financial Partners Inc.,"4,403.57"
+512,PR,,BPOP,Popular Inc,
+513,US,NASDAQ,BPOP,Popular Inc.,"4,485.64"
+514,US,OTC,PTBS,"Potomac Bancshares, Inc.",
+515,US,NASDAQ,PFBI,"Premier Financial Bancorp, Inc.",
+516,US,NASDAQ,PFC,Premier Financial Corp,607.74
+517,US,OTC,PMHG,Prime Meridian Holding Co,67.78
+518,US,NASDAQ,FRST,Primis Financial Corp,206.86
+519,US,NASDAQ,BPRN,Princeton Bancorp Inc,174.39
+520,US,NASDAQ,PFHD,Professional Holding Corp - Class A,
+521,US,NYSE,PB,Prosperity Bancshares Inc.,"5,257.04"
+522,US,NASDAQ,QCRH,"QCR Holding, Inc.",697.47
+523,US,OTC,QNBC,QNB Corp.,82.31
+524,US,NASDAQ,RBB,RBB Bancorp,233.42
+525,US,NASDAQ,RNDB,Randolph Bancorp Inc,
+526,US,NASDAQ,RRBI,Red River Bancshares Inc,346.68
+527,US,NYSE,RF.PRB,Regions Financial Corp.,
+528,US,NYSE,RF,Regions Financial Corp.,"17,199.25"
+529,US,NYSE,RF.PRC,"Regions Financial Corporation Depositary Shares, each Representing a 1/40th Interest in a Share of 5",
+530,DE,FRA,9BW,Reliant Bancorp Inc,
+531,US,NASDAQ,RBNC,Reliant Bancorp Inc,
+532,US,NASDAQ,RNST,Renasant Corp.,"1,486.46"
+533,US,NASDAQ,RBCAA,"Republic Bancorp, Inc. (KY) - Class A",
+534,US,NASDAQ,FRBK,"Republic First Bancorp, Inc.",56.84
+535,US,NASDAQ,RMBI,Richmond Mutual Bancorporation Inc,113.46
+536,US,OTC,RVRF,River Financial Corp,200.11
+537,US,NASDAQ,RIVE,Riverview Financial Corp,
+538,CA,TSX,RY,Royal Bank of Canada,"174,467.76"
+539,CA,,AMLPRBC14,Royal Bank of Canada,
+540,US,NYSE,RY.PRT,"Royal Bank of Canada, 6.75% Dep Shares Fixed/Float Non-cum Preferred Shares C-2",
+541,US,NASDAQ,STBA,"S & T Bancorp, Inc.","1,053.28"
+542,GB,LSE,BB34,SANTANDER UK PLC,
+543,GB,,SUKPLC,SANTANDERUKPLC 1/7/20 CP 0% 1/7/2020 CP,
+544,US,NASDAQ,SBFG,SB Financial Group Inc,89.35
+545,US,OTC,SLGRF,SLM Solutions Group AG - Bearer Shares,
+546,US,NYSE,ITE,SPDR Barclays Capital Intermediate Term Treasury ETF,
+547,US,NYSE,FLTY,SPDR Barclays Floating Rate Treasury ETF,
+548,US,NYSE,MBG,SPDR Barclays Mortgage Backed Bond ETF,
+549,US,NYSE,IPE,SPDR Barclays TIPS ETF,
+550,US,NYSE,EMCD,SPDR BofA Merrill Lynch Emerging Markets Corporate Bond ETF,
+551,US,NYSE,OOO,SPDR O-Strip ETF,
+552,US,NYSE,SPYB,SPDR S&P 500(R) Buyback ETF,
+553,US,NYSE,XTH,SPDR S&P Technology Hardware ETF,
+554,US,NYSE,RBL,SPDR Series Trust,
+555,US,NYSE,XBI,SPDR Series Trust - SPDR Biotech ETF,
+556,US,NYSE,TIPX,SPDR Series Trust - SPDR Bloomberg 1-10 Year TIPS ETF,
+557,US,NYSE,BIL,SPDR Series Trust - SPDR Bloomberg 1-3 Month T-Bill ETF,
+558,US,NYSE,BILS,SPDR Series Trust - SPDR Bloomberg 3-12 Month T-Bill ETF,
+559,US,NYSE,CWB,SPDR Series Trust - SPDR Bloomberg Convertible Securities ETF,
+560,US,NYSE,EBND,SPDR Series Trust - SPDR Bloomberg Emerging Markets Local Bond ETF,
+561,US,NYSE,EMHC,SPDR Series Trust - SPDR Bloomberg Emerging Markets USD Bond ETF,
+562,US,NYSE,JNK,SPDR Series Trust - SPDR Bloomberg High Yield Bond ETF,
+563,US,NYSE,IBND,SPDR Series Trust - SPDR Bloomberg International Corporate Bond ETF,
+564,US,NYSE,BWX,SPDR Series Trust - SPDR Bloomberg International Treasury Bond ETF,
+565,US,NYSE,FLRN,SPDR Series Trust - SPDR Bloomberg Investment Grade Floating Rate ETF,
+566,US,NYSE,RBND,SPDR Series Trust - SPDR Bloomberg SASB Corporate Bond ESG Select ETF,
+567,US,NYSE,SJNK,SPDR Series Trust - SPDR Bloomberg Short Term High Yield Bond ETF,
+568,US,NYSE,BWZ,SPDR Series Trust - SPDR Bloomberg Short Term International Treasury Bond ETF,
+569,US,NYSE,WIP,SPDR Series Trust - SPDR Citi International Government Inflation-Protected Bond ETF,
+570,US,NYSE,RWR,SPDR Series Trust - SPDR DJ Wilshire REIT ETF,
+571,US,NYSE,SDY,SPDR Series Trust - SPDR Dividend ETF,
+572,US,NYSE,XITK,SPDR Series Trust - SPDR FactSet Innovative Technology ETF,
+573,US,NYSE,DGT,SPDR Series Trust - SPDR Global Dow ETF,
+574,US,NYSE,PSK,SPDR Series Trust - SPDR ICE Preferred Securities ETF,
+575,US,NYSE,NZUS,SPDR Series Trust - SPDR MSCI USA Climate Paris Aligned ETF,
+576,US,NYSE,SHE,SPDR Series Trust - SPDR MSCI USA Gender Diversity ETF,
+577,US,NYSE,QUS,SPDR Series Trust - SPDR MSCI USA StrategicFactors SM ETF,
+578,US,NYSE,LQIG,SPDR Series Trust - SPDR MarketAxess Investment Grade 400 Corporate Bond ETF,
+579,US,NYSE,XME,SPDR Series Trust - SPDR Metals & Mining ETF,
+580,US,NYSE,XNTK,SPDR Series Trust - SPDR NYSE Technology ETF,
+581,US,NYSE,HYMB,SPDR Series Trust - SPDR Nuveen Bloomberg High Yield Municipal Bond ETF,
+582,US,NYSE,TFI,SPDR Series Trust - SPDR Nuveen Bloomberg Municipal Bond ETF,
+583,US,NYSE,SHM,SPDR Series Trust - SPDR Nuveen Bloomberg Short Term Municipal Bond ETF,
+584,US,NYSE,XES,SPDR Series Trust - SPDR Oil & Gas Equipment and Services ETF,
+585,US,NYSE,XOP,SPDR Series Trust - SPDR Oil & Gas Exploration and Production ETF,
+586,US,NYSE,XPH,SPDR Series Trust - SPDR Pharmaceuticals ETF,
+587,US,NYSE,SPBO,SPDR Series Trust - SPDR Portfolio Corporate Bond ETF,
+588,US,NYSE,SPHY,SPDR Series Trust - SPDR Portfolio High Yield Bond ETF,
+589,US,NYSE,SPTI,SPDR Series Trust - SPDR Portfolio Intermediate Term Treasury ETF,
+590,US,NYSE,SPMB,SPDR Series Trust - SPDR Portfolio Mortgage Backed Bond ETF,
+591,US,NYSE,SPTM,SPDR Series Trust - SPDR Portfolio S&P 1500 Composite Stock Market ETF,
+592,US,NYSE,SPMD,SPDR Series Trust - SPDR Portfolio S&P 400 Mid Cap ETF,
+593,US,NYSE,SPLG,SPDR Series Trust - SPDR Portfolio S&P 500 ETF,
+594,US,NYSE,SPYG,SPDR Series Trust - SPDR Portfolio S&P 500 Growth ETF,
+595,US,NYSE,SPYD,SPDR Series Trust - SPDR Portfolio S&P 500 High Dividend ETF,
+596,US,NYSE,SPYV,SPDR Series Trust - SPDR Portfolio S&P 500 Value ETF,
+597,US,NYSE,SPSM,SPDR Series Trust - SPDR Portfolio S&P 600 Small Cap ETF,
+598,US,NYSE,SPIP,SPDR Series Trust - SPDR Portfolio TIPS ETF,
+599,US,NYSE,XRT,SPDR Series Trust - SPDR Retail ETF,
+600,US,NYSE,ONEV,SPDR Series Trust - SPDR Russell 1000 Low Volatility Focus ETF,
+601,US,NYSE,ONEO,SPDR Series Trust - SPDR Russell 1000 Momentum Focus ETF,
+602,US,NYSE,ONEY,SPDR Series Trust - SPDR Russell 1000 Yield Focus ETF,
+603,US,NYSE,MMTM,SPDR Series Trust - SPDR S&P 1500 Momentum Tilt ETF,
+604,US,NYSE,VLU,SPDR Series Trust - SPDR S&P 1500 Value Tilt ETF,
+605,US,NYSE,MDYG,SPDR Series Trust - SPDR S&P 400 Mid Cap Growth ETF,
+606,US,NYSE,MDYV,SPDR Series Trust - SPDR S&P 400 Mid Cap Value ETF,
+607,US,NYSE,EFIV,SPDR Series Trust - SPDR S&P 500 ESG ETF,
+608,US,NYSE,SLY,SPDR Series Trust - SPDR S&P 600 Small Cap ETF,
+609,US,NYSE,SLYG,SPDR Series Trust - SPDR S&P 600 Small Cap Growth ETF,
+610,US,NYSE,SLYV,SPDR Series Trust - SPDR S&P 600 Small Cap Value ETF,
+611,US,NYSE,XAR,SPDR Series Trust - SPDR S&P Aerospace & Defense ETF,
+612,US,NYSE,KBE,SPDR Series Trust - SPDR S&P Bank ETF,
+613,US,NYSE,KCE,SPDR Series Trust - SPDR S&P Capital Markets ETF,
+614,US,NYSE,XHE,SPDR Series Trust - SPDR S&P Health Care Equipment ETF,
+615,US,NYSE,XHS,SPDR Series Trust - SPDR S&P Health Care Services ETF,
+616,US,NYSE,KIE,SPDR Series Trust - SPDR S&P Insurance ETF,
+617,US,NYSE,XWEB,SPDR Series Trust - SPDR S&P Internet ETF,
+618,US,NYSE,CNRG,SPDR Series Trust - SPDR S&P Kensho Clean Power ETF,
+619,US,NYSE,ROKT,SPDR Series Trust - SPDR S&P Kensho Final Frontiers ETF,
+620,US,NYSE,FITE,SPDR Series Trust - SPDR S&P Kensho Future Security ETF,
+621,US,NYSE,SIMS,SPDR Series Trust - SPDR S&P Kensho Intelligent Structures ETF,
+622,US,NYSE,KOMP,SPDR Series Trust - SPDR S&P Kensho New Economies Composite ETF,
+623,US,NYSE,HAIL,SPDR Series Trust - SPDR S&P Kensho Smart Mobility ETF,
+624,US,NYSE,KRE,SPDR Series Trust - SPDR S&P Regional Banking ETF,
+625,US,NYSE,ESIX,SPDR Series Trust - SPDR S&P SmallCap 600 ESG ETF,
+626,US,NYSE,XSW,SPDR Series Trust - SPDR S&P Software & Services ETF,
+627,US,NYSE,XTL,SPDR Series Trust - SPDR S&P Telecom ETF,
+628,US,NYSE,XTN,SPDR Series Trust - SPDR S&P Transportation ETF,
+629,US,NYSE,LGLV,SPDR Series Trust - SPDR SSGA US Large Cap Low Volatility Index ETF,
+630,US,NYSE,SMLV,SPDR Series Trust - SPDR SSGA US Small Cap Low Volatility Index ETF,
+631,US,NYSE,XSD,SPDR Series Trust - SPDR Semiconductors ETF,
+632,US,NYSE,SPYX,SPDR Series Trust - SSGA SPDR S&P 500 Fossil Fuel Free ETF,
+633,US,NYSE,LAG,SPDR(R) Barclays Aggregate Bond ETF,
+634,US,NYSE,IJNK,SPDR(R) Barclays International High Yield Bond ETF,
+635,US,NYSE,BABS,SPDR(R) Nuveen Barclays Build America Bond ETF,
+636,US,NYSE,CXA,SPDR(R) Nuveen Barclays California Municipal Bond ETF,
+637,US,NYSE,INY,SPDR(R) Nuveen Barclays New York Municipal Bond ETF,
+638,US,NYSE,VRD,SPDR(R) Nuveen S&P(R) VRDO Municipal Bond ETF,
+639,US,NYSE,KME,SPDR(R) S&P Mortgage Finance(SM) ETF,
+640,US,NYSE,XHB,SSgA Active Trust - SPDR Homebuilders ETF,
+641,US,NYSE,SPIB,SSgA Active Trust - SPDR Portfolio Intermediate Term Corporate Bond ETF,
+642,US,NYSE,SPLB,SSgA Active Trust - SPDR Portfolio Long Term Corporate Bond ETF,
+643,US,NYSE,SPTL,SSgA Active Trust - SPDR Portfolio Long Term Treasury ETF,
+644,US,NYSE,SPSB,SSgA Active Trust - SPDR Portfolio Short Term Corporate Bond ETF,
+645,US,NYSE,SPTS,SSgA Active Trust - SPDR Portfolio Short Term Treasury ETF,
+646,US,NASDAQ,SASR,Sandy Spring Bancorp,"1,006.11"
+647,PL,WSE,SPL,Santander Bank Polska SA,
+648,GB,,SANUK,Santander UK Group Holdings PLC,
+649,GB,LSE,BB08,Santander UK plc,
+650,US,NASDAQ,SBCF,Seacoast Banking Corp. Of Florida,"1,883.30"
+651,US,OTC,SFDL,Security Federal Corp,80.52
+652,US,NASDAQ,SLCT,Select Bancorp Inc,
+653,US,NYSE,SFBS,ServisFirst Bancshares Inc,"2,239.14"
+654,US,NASDAQ,SVBI,Severn Bancorp Inc,
+655,US,OTC,SVRH,Sevier County Bancshares Inc,
+656,KR,KRX,055550,Shinhan Financial Group Co Ltd,
+657,KR,,SHINFN,Shinhan Financial Group Co Ltd,
+658,US,NYSE,SHG,Shinhan Financial Group Co. Ltd. - ADR,
+659,US,NASDAQ,SHBI,Shore Bancshares Inc.,229.43
+660,US,NASDAQ,BSRR,Sierra Bancorp,252.36
+661,US,OTCM,SICP,Silvergate Capital Corp - Class A,17.41
+662,US,NYSE,SI,Silvergate Capital Corp - Class A,
+663,US,NASDAQ,SFNC,Simmons First National Corp. - Class A,"2,188.76"
+664,US,OTC,PKKW,Skyline Bankshares Inc,55.79
+665,US,NASDAQ,SMBK,SmartFinancial Inc,364.74
+666,US,OTC,SLRK,Solera National Bancorp Inc,
+667,US,NASDAQ,SPFI,South Plains Financial Inc,391.26
+668,US,NASDAQ,SSB,SouthState Corporation,"5,163.00"
+669,US,OTC,SBNCN,Southern Bancshares Inc. - PFS PERPETUAL USD - Class C 0%,
+670,US,OTC,BCAL,Southern Calif Bancorp,256.80
+671,US,NASDAQ,SFST,Southern First Bancshares Inc,200.56
+672,US,OTC,SOMC,Southern Michigan Bancorp Inc.,
+673,US,NASDAQ,SSBK,Southern States Bancshares Inc,184.64
+674,US,NASDAQ,SBSI,Southside Bancshares Inc,792.91
+675,US,AMEX,SGB,Southwest Georgia Financial Corp.,
+676,US,NASDAQ,STXB,Spirit of Texas Bancshares Inc,
+677,US,NYSE,STT,State Street Corp.,"24,705.07"
+678,US,NYSE,STT.PRD,State Street Corp.,
+679,US,NYSE,STT.PRG,State Street Corp.,
+680,US,NASDAQ,STEL,Stellar Bancorp Inc,"1,196.63"
+681,US,NYSE,STL.PRA,Sterling Bancorp,
+682,DE,DUS,ST4,Sterling Bancorp Inc,
+683,US,NYSE,STL,Sterling Bancorp.,
+684,US,NASDAQ,SYBT,Stock Yards Bancorp Inc,"1,311.91"
+685,US,OTC,STBI,Sturgis Bancorp Inc,
+686,JP,,SUMIBK,Sumitomo Mitsui Financial Group Inc,
+687,JP,TYO,8316,Sumitomo Mitsui Financial Group Inc,"8,407,597.39"
+688,US,NYSE,SMFG,Sumitomo Mitsui Financial Group Inc - ADR,
+689,US,NASDAQ,SMMF,Summit Financial Group Inc,258.41
+690,US,OTC,SRYB,Surrey Bancorp (NC),
+691,US,NYSE,SNV,Synovus Financial Corp.,"4,510.64"
+692,US,NYSE,SNV.PRE,"Synovus Financial Corp. 5.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series E",
+693,US,NYSE,SNV.PRD,"Synovus Financial Corp. Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock, Series D Li",
+694,US,NASDAQ,TECTP,Tectonic Financial Inc. - FXDFR PRF PERPETUAL USD 10 - Ser B,
+695,US,NASDAQ,TCBI,"Texas Capital Bancshares, Inc.","2,527.52"
+696,US,AMEX,TMP,Tompkins Financial Corp,795.50
+697,CA,TSX,TD,Toronto-Dominion Bank (The),"147,922.10"
+698,CA,,TDBANK CP 0 11/20/19,Toronto-Dominion Bank (The),
+699,US,OTC,TYFG,"Tri County Financial Group, Inc.",
+700,US,NASDAQ,TCBK,Trico Bancshares,"1,095.78"
+701,US,NASDAQ,TFIN,Triumph Financial Inc,"1,434.92"
+702,US,NYSE,TFC,Truist Financial Corporation,"42,448.22"
+703,US,NYSE,TFC.PRO,"Truist Financial Corporation Depositary Shares, Each Representing a 1/1,000th Interest in a Share o",
+704,US,NYSE,TFC.PRR,"Truist Financial Corporation Depositary Shares, each representing 1/1,000th interest in a share of S",
+705,US,NASDAQ,TRST,Trustco Bank Corp.,546.19
+706,US,NASDAQ,TRMK,Trustmark Corp.,"1,311.15"
+707,US,NYSE,USB.PRS,"U.S. Bancorp Depositary Shares Depositary Shares, each representing a 1/1,000th interest in a share of Series O Non-Cumulative Perpetual Preferred Stock",
+708,US,NYSE,USB.PRP,"U.S. Bancorp Depositary Shares each representing a 1/1,000th interest in a share of Series K Non-Cum",
+709,US,NYSE,USB.PRQ,"U.S. Bancorp Depositary Shares, Each Representing a 1/1, 000th Interest in a Share of Series L Non-",
+710,US,NYSE,USB.PRR,"U.S. Bancorp Depositary Shares, Each Representing a 1/1, 000th Interest in a Share of Series M Non-",
+711,US,NYSE,USB.PRA,"U.S. Bancorp, Fixed/Floating Dep Shares Non-Cumul Perp Preferred Stock, A",
+712,US,NYSE,USB.PRH,"U.S. Bancorp, Float Rate Dep Shares Non-cumul Perp Preferred Stock, Series B",
+713,US,NYSE,USB,U.S. Bancorp.,"51,414.16"
+714,CH,,UBS14,UBS AG SUBORDINATED REGS 02/26 VAR,
+715,CH,,UBG151,UBS Group AG,
+716,CH,,0UBA,UBS Group AG,
+717,CH,,UBS,UBS Group AG,
+718,CH,SIX,UBSG,UBS Group AG,"51,752.31"
+719,US,NASDAQ,UMBF,UMB Financial Corp.,"2,917.33"
+720,US,NASDAQ,USCB,USCB Financial Holdings Inc - Class A,208.78
+721,US,NASDAQ,UNB,"Union Bankshares, Inc.",101.46
+722,US,NASDAQ,UBCP,"United Bancorp, Inc. (Martins Ferry, OH)",69.76
+723,US,NASDAQ,UBOH,United Bancshares Inc. (OH),58.37
+724,US,NASDAQ,UBSI,"United Bankshares, Inc.","3,818.20"
+725,US,NASDAQ,UCBI,United Community Banks Inc,"2,907.66"
+726,US,NASDAQ,UBFO,United Security Bancshares (CA),116.92
+727,US,NASDAQ,UNTY,"Unity Bancorp, Inc.",239.49
+728,US,OTC,UNIB,University Bancorp Inc. (MI),
+729,US,NASDAQ,UVSP,Univest Financial Corp,522.96
+730,US,OTC,UWHR,Uwharrie Capital Corp.,56.60
+731,NL,,ANNGR,VONOVIA BV,
+732,US,NASDAQ,VLY,Valley National Bancorp,"3,910.64"
+733,DE,,VTWR,Vantage Towers AG,
+734,US,NASDAQ,VBTX,Veritex Holdings Inc,975.58
+735,US,NASDAQ,VBFC,Village Bank & Trust Financial Corporation,
+736,US,NASDAQ,VABK,Virginia National Bankshares Corp,164.70
+737,AU,,WSTP,WESTPAC BANKING CORP SR UNSECURED 02/20 7.25,
+738,AU,,WSTPAC,WESTPAC BANKING CORP.,
+739,US,NASDAQ,WSFS,WSFS Financial Corp.,"2,308.63"
+740,US,NASDAQ,WAFD,Washington Federal Inc.,"1,753.36"
+741,US,NASDAQ,WASH,"Washington Trust Bancorp, Inc.",451.52
+742,US,NYSE,WBS,Webster Financial Corp.,"6,799.33"
+743,US,NYSE,WBS.PRF,Webster Financial Corporation,
+744,US,NYSE,WBS.PRG,"Webster Financial Corporation Depositary Shares, each representing a 1/40th interest in a share of 6.50% Series G non-cumulative perpetual preferred stock",
+745,US,NYSE,WFC,Wells Fargo & Co.,"160,520.12"
+746,US,NYSE,WFC.PRQ,"Wells Fargo & Co., 5.85% Dep Shares Fixed/Float Non-Cumul Perp Pfd Stock Ser Q",
+747,US,NYSE,WFC.PRR,"Wells Fargo & Co., 6.625% Dep Shares Fixed/Float Non-Cumul Perp Pfd Stock Ser R",
+748,US,NYSE,WFC.PRL,"Wells Fargo & Co., 7.50% Non-Cumul Perp Conv Cl A Preferred Stock, Series L",
+749,US,NYSE,WFC.PRY,Wells Fargo & Company,
+750,US,NYSE,WFC.PRA,"Wells Fargo & Company Depositary Shares, each representing a 1/1, 000th interest in a share of Non-C",
+751,US,NYSE,WFC.PRC,"Wells Fargo & Company Depositary Shares, each representing a 1/1, 000th interest in a share of Non-C",
+752,US,NYSE,WFC.PRD,"Wells Fargo & Company Depositary Shares, each representing a 1/1, 000th interest in a share of Non-C",
+753,US,NYSE,WFC.PRZ,"Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non-Cu",
+754,US,NASDAQ,WSBC,"Wesbanco, Inc.","1,523.23"
+755,US,NASDAQ,WTBA,West Bancorporation,308.34
+756,US,NASDAQ,WABC,Westamerica Bancorporation,"1,060.32"
+757,US,OTC,WBBW,Westbury Bancorp Inc,
+758,US,NYSE,WAL,Western Alliance Bancorp,"4,083.42"
+759,US,NYSE,WAL.PRA,"Western Alliance Bancorporatio Depositary Shares, Each Representing a 1/400th Interest in a Share of 4.250% Fixed-Rate Non-Cumulative Perpetual Preferred Stock, Series A",
+760,AU,ASX,WBC,Westpac Banking Corp,"73,051.75"
+761,NZ,NZX,WBC,Westpac Banking Corporation,
+762,US,OTC,WBHC,Wilson Bank Holding Co.,405.02
+763,US,NASDAQ,WTFC,Wintrust Financial Corp.,"4,523.99"
+764,KR,,WOORIB,Woori Bank,
+765,US,NYSE,WF,Woori Financial Group Inc - ADR,
+766,US,NASDAQ,ZION,Zions Bancorporation N.A,"4,290.48"
+767,US,NYSE,ACP,abrdn Income Credit Strategies Fund,
