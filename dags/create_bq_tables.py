@@ -70,7 +70,7 @@ with models.DAG(
         table_id="summary_deposit_fact",
         schema_fields=[
             {"name": "cert", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "bank_name", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "branch_name", "type": "STRING", "mode": "REQUIRED"},
             {"name": "asset", "type": "STRING", "mode": "REQUIRED"},
             {"name": "total_domestics_deposits", "type": "NUMERIC", "mode": "REQUIRED"},
             {"name": "total_deposits", "type": "NUMERIC", "mode": "REQUIRED"},
