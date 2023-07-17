@@ -1,0 +1,7 @@
+# Additional Requirements to set up development environment
+mypy
+black
+ruff
+types-requests
+pandas-stubs
+types-beautifulsoup4

@@ -24,7 +24,7 @@ with models.DAG(
     "create_bq_dataset",
     catchup=False,
     default_args=default_args,
-    schedule_interval="@once",
+    schedule_interval=None,
 ) as dag:
     # Print the dag_run id from the Airflow logs
     create_bq_dataset = bigquery.BigQueryCreateEmptyDatasetOperator(
@@ -38,14 +38,15 @@ with models.DAG(
         schema_fields=[
             {"name": "id", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "cert", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "ticker", "type": "STRING", "mode": "NULLABLE"},
             {"name": "name", "type": "STRING", "mode": "REQUIRED"},
             {"name": "address", "type": "STRING", "mode": "REQUIRED"},
             {"name": "state", "type": "STRING", "mode": "REQUIRED"},
             {"name": "city", "type": "STRING", "mode": "REQUIRED"},
             {"name": "date_updt", "type": "DATE", "mode": "REQUIRED"},
             {"name": "active", "type": "BOOL", "mode": "REQUIRED"},
-            {"name": "insfdic", "type": "BOOL", "mode": "REQUIRED"},
             {"name": "offices", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "insfdic", "type": "BOOL", "mode": "REQUIRED"},
         ],
     )
 
@@ -54,12 +55,12 @@ with models.DAG(
         dataset_id=DATASET_NAME,
         table_id="ticker_data_fact",
         schema_fields=[
-            {"name": "id_ticker", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "id_data", "type": "DATE", "mode": "REQUIRED"},
+            {"name": "ticker", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "date", "type": "DATE", "mode": "REQUIRED"},
             {"name": "open", "type": "FLOAT64", "mode": "REQUIRED"},
-            {"name": "close", "type": "FLOAT64", "mode": "REQUIRED"},
             {"name": "high", "type": "FLOAT64", "mode": "REQUIRED"},
             {"name": "low", "type": "FLOAT64", "mode": "REQUIRED"},
+            {"name": "close", "type": "FLOAT64", "mode": "REQUIRED"},
             {"name": "volume", "type": "FLOAT64", "mode": "REQUIRED"},
         ],
     )
@@ -83,11 +84,11 @@ with models.DAG(
         dataset_id=DATASET_NAME,
         table_id="loan_data_fact",
         schema_fields=[
-            {"name": "id", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "borrow_id", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "lender_id", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "loan_number", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "loan_amount", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "id", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "borrow_id", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "lender_id", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "loan_number", "type": "INTEGER", "mode": "REQUIRED"},
+            {"name": "loan_amount", "type": "FLOAT64", "mode": "REQUIRED"},
             {"name": "loan_status", "type": "STRING", "mode": "REQUIRED"},
             {"name": "loan_status_date_id", "type": "STRING", "mode": "REQUIRED"},
             {"name": "forgiveness_amount", "type": "FLOAT64", "mode": "REQUIRED"},
@@ -107,10 +108,8 @@ with models.DAG(
             {"name": "state", "type": "STRING", "mode": "REQUIRED"},
             {"name": "zip_code", "type": "STRING", "mode": "REQUIRED"},
             {"name": "rural_urban_indicator", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "naics_code", "type": "STRING", "mode": "REQUIRED"},
+            {"name": "naics_code", "type": "STRING", "mode": "NULLABLE"},
             {"name": "employee_count", "type": "INTEGER", "mode": "REQUIRED"},
-            {"name": "latitude", "type": "FLOAT64", "mode": "NULLABLE"},
-            {"name": "longitude", "type": "FLOAT64", "mode": "NULLABLE"},
             {"name": "geo_location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
         ],
     )
